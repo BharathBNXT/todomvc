@@ -33,6 +33,4 @@ describe("Login Functionality", () => {
     // Assert that an error message is displayed
     cy.contains("Invalid Credentials");
   });
-
-  it("should login and click on ");
 });
