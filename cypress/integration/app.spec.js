@@ -128,7 +128,7 @@ describe("TodoMVC", function () {
       // even though the text content is split across
       // multiple <span> and <strong> elements
       // `cy.contains` can verify this correctly
-      cy.get(".todo-count").contains("3 items leftsss");
+      cy.get(".todo-count").contains("3 items leftssss");
 
       cy.get("@todos").eq(0).find("label").should("contain", TODO_ITEM_ONE);
 
